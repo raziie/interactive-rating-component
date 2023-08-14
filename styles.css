@@ -1,12 +1,3 @@
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-}
-
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
-
 body {
     background-color: hsl(216, 12%, 8%);
     color: hsl(0, 0%, 100%);
@@ -15,6 +6,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Overpass', sans-serif;
 }
 
 .container {
@@ -24,8 +16,29 @@ body {
     border-radius: 12px;
 }
 
+.thanks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .rating-container {
+    background-color: hsl(216, 12%, 20%);
+    width: max-content;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+#rate-detail {
     color: hsl(25, 97%, 53%);
+    margin: 5px 20px;
+    font-size: 14px;
+}
+
+.thank-title {
+    margin-bottom: 0px;
 }
 
 #submit {
@@ -40,6 +53,7 @@ body {
 
 .details {
     color: hsl(217, 12%, 63%);
+    font-size: 14px;
 }
 
 .selected {
