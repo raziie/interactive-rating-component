@@ -55,4 +55,8 @@ body {
 .buttons > button{
     color: hsl(217, 12%, 63%);
     background-color: hsl(216, 12%, 30%);
+    border: 0px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
 }
