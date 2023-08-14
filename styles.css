@@ -7,6 +7,49 @@
     color: hsl(228, 45%, 44%); 
 }
 
-/* body {
+body {
     background-color: hsl(216, 12%, 8%);
-} */
+    color: hsl(0, 0%, 100%);
+}
+
+.container {
+    background-color: hsl(213, 19%, 18%);
+}
+
+.rating-container {
+    color: hsl(25, 97%, 53%);
+}
+
+#submit {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.details {
+    color: hsl(217, 12%, 63%);
+}
+
+.selected {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.submit-hover {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.circle {
+    background-color: hsl(216, 12%, 30%);
+    /* width: 40px;
+    height: 40px;
+    border-radius: 50%; */
+}
+
+.buttons > button{
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(216, 12%, 30%);
+}
