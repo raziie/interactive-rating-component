@@ -41,7 +41,7 @@ body {
     margin-bottom: 0px;
 }
 
-#submit {
+.submit {
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
     border: 0px;
@@ -56,20 +56,6 @@ body {
 .details {
     color: hsl(217, 12%, 63%);
     font-size: 14px;
-}
-
-.selected {
-    background-color: hsl(217, 12%, 63%);
-    color: hsl(0, 0%, 100%);
-}
-
-.hover {
-    background-color: hsl(25, 97%, 53%);
-    color: hsl(0, 15%, 39%);
-}
-
-.submit-hover {
-    background-color: hsl(0, 0%, 100%);
 }
 
 .circle {
@@ -93,4 +79,19 @@ body {
     margin-top: 10px;
     margin-bottom: 30px;
     font-family: 'Overpass', sans-serif;
+}
+
+.hover {
+    background-color: hsl(25, 97%, 53%) !important;
+    color: hsl(0, 15%, 39%) !important;
+}
+
+.selected {
+    background-color: hsl(217, 12%, 63%) !important;
+    color: hsl(0, 0%, 100%) !important;
+}
+
+.submit-hover {
+    background-color: hsl(0, 0%, 100%) !important;
+    color: hsl(25, 97%, 53%) !important;
 }
