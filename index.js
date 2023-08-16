@@ -13,9 +13,10 @@ $(".one").on("mouseout", function () {
 $(".one").on("click", function () {
     $(".one").addClass("selected");
     var previous = nums[rate];
-    $("." + previous).removeClass("selected");
+    if (previous !== "one") {
+        $("." + previous).removeClass("selected");
+    }    
     rate = 1;
-    $("#rating").text(rate);
 });
 
 // two
@@ -30,10 +31,10 @@ $(".two").on("mouseout", function () {
 $(".two").on("click", function () {
     $(".two").addClass("selected");
     var previous = nums[rate];
-    $("." + previous).removeClass("selected");
+    if (previous !== "two") {
+        $("." + previous).removeClass("selected");
+    }
     rate = 2;
-    $("#rating").text(rate);
-    console.log($("#rating"));
 });
 
 // three
@@ -48,9 +49,10 @@ $(".three").on("mouseout", function () {
 $(".three").on("click", function () {
     $(".three").addClass("selected");
     var previous = nums[rate];
-    $("." + previous).removeClass("selected");
+    if (previous !== "three") {
+        $("." + previous).removeClass("selected");
+    }
     rate = 3;
-    $("#rating").text(rate);
 });
 
 // four
@@ -65,9 +67,10 @@ $(".four").on("mouseout", function () {
 $(".four").on("click", function () {
     $(".four").addClass("selected");
     var previous = nums[rate];
-    $("." + previous).removeClass("selected");
+    if (previous !== "four") {
+        $("." + previous).removeClass("selected");
+    }
     rate = 4;
-    $("#rating").text(rate);
 });
 
 // five
@@ -82,9 +85,10 @@ $(".five").on("mouseout", function () {
 $(".five").on("click", function () {
     $(".five").addClass("selected");
     var previous = nums[rate];
-    $("." + previous).removeClass("selected");
+    if (previous !== "five") {
+        $("." + previous).removeClass("selected");
+    }
     rate = 5;
-    $("#rating").text(rate);
 });
 
 $(".submit").on("mouseover", function () {
@@ -95,4 +99,6 @@ $(".submit").on("mouseout", function () {
     $(".submit").removeClass("submit-hover");
 });
 
-$("#rating").text(4);
+$(".submit").onClick(function () {
+    $("#rating").text(rate);
+});
